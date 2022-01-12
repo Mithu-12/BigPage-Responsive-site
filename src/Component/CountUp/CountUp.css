@@ -1,0 +1,49 @@
+.count-container{
+    background-image: url("https://bootstrapmade.com/demo/templates/BizPage/assets/img/facts-bg.jpg"), linear-gradient(rgba(252, 252, 252, 0.959), 
+    rgba(241, 241, 241, 0.92));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    display: block;
+    /* position: fixed; */
+}
+.count{
+    margin: 60px 0;
+    padding-top: 40px;
+}
+.count-up{
+    margin: 30px 0;
+    font-size: 48px;
+    text-align: center;
+}
+.count-up span{
+    color: #18d26e;
+    font-weight: 700;
+}
+.count-image{
+    margin-bottom: 60px;
+}
+.count-info{
+    text-align: center;
+
+}
+.count-info h2{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.count-info h2:after{
+        content: "";
+        display: block;
+        width: 40px;
+        height: 3px;
+        border: 1px solid #18d26e;
+        background: #18d26e;
+        bottom: 0;
+        left: calc(90% - 20px);
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+        
+    }

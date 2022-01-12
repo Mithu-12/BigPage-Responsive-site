@@ -1,0 +1,44 @@
+
+.services-container{
+    margin-top: 60px;
+}
+.services-info{
+    text-align: center;
+    margin: 30px 0;
+
+}
+.services-info h1{
+    font-weight: bold;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    color: #18d26e;
+    font-size: 36px;
+    line-height: 0;
+    transition: 0.5s;
+    margin-right: 15px;
+}
+.icon-info h5{
+    font-weight: bold;
+}
+.service .row{
+    margin: 25px 0;
+}
+.services-info h1:after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    border: 1px solid #18d26e;
+    background: #18d26e;
+    bottom: 0;
+    left: calc(90% - 20px);
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    
+}

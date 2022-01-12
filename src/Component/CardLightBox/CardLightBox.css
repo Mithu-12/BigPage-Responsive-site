@@ -1,0 +1,61 @@
+.cardLight-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardLight-button ul li{
+    cursor: pointer;
+    margin: 15px 15px 15px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: #fff;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #fff;
+}
+.cardLight-button ul li:hover{
+    background: #18d26e;
+    color: #fff;
+}
+/* ul{
+    display: inline-block;
+    background: #18d26e;
+} */
+.CardLightBox{
+    padding: 30px 0;
+    background-color: RGB(247, 247, 247);
+}
+.cardLight-button{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.cardLight-col{
+    margin-bottom: 20px;
+}
+.cardLight-info h2{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.cardLight-info h2:after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    border: 1px solid #18d26e;
+    background: #18d26e;
+    bottom: 0;
+    left: calc(90% - 20px);
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    
+}

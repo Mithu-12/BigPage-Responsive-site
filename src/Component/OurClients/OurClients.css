@@ -1,0 +1,75 @@
+.client-img img{
+    width: 168px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.client-img img:hover{
+    opacity: 1;
+
+}
+.client-info h2{
+    font-weight: bold;
+    margin: 40px 0px ;
+    text-align: center;
+
+}
+.client-info h2:after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    border: 1px solid #18d26e;
+    background: #18d26e;
+    bottom: 0;
+    left: calc(90% - 20px);
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+/* .client-container .slick-dots li button{
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #18d26e;
+    border-radius: 50%;
+} */
+.client-container .slick-dots {
+    bottom: -2.5vw;
+    }
+
+   
+    .client-container .slick-dots li button:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    opacity: 1;
+    color: #fff;
+    background-color: rgb(255, 254, 254);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border: 1px solid #18d26e;
+} 
+
+.client-container .slick-dots li.slick-active button, .carousel .slick-dots li:hover button {
+    border-color: #18d26e !important;
+    }
+
+.client-container .slick-dots li.slick-active button:before, .carousel .slick-dots li:hover button:before {
+    background-color: #18d26e;
+    opacity: 1;
+    border-radius: 50%;
+}
+.client-container{
+    padding: 35px 0;
+}
+    

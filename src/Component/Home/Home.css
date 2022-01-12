@@ -1,0 +1,16 @@
+#btnScroll{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    /* z-index: 999; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #18d26e;
+    background-color: #18d26e;
+    color: #fff;
+    outline: none;
+}
+#btnScroll:active, #btnScroll:hover{
+    background-color: #2eff8f;
+}

@@ -1,0 +1,17 @@
+.banner-container{
+    background-color: black;
+    color: #fff;
+    padding: 30px 0px;
+}
+.banner-content i{
+   font-size: 45px;
+   color: #18d26e;
+}
+.banner-content h4{
+    padding: 15px 0;
+}
+.banner-single{
+    padding-left: 10px;
+    background: linear-gradient(#000000, #555252, #000000);
+
+}
