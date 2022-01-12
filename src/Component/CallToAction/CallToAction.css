@@ -1,0 +1,40 @@
+.callTo-container{
+    background-image: url("https://bootstrapmade.com/demo/templates/BizPage/assets/img/call-to-action-bg.jpg"), linear-gradient(rgba(185, 185, 185, 0.92), 
+    rgba(151, 151, 151, 0.92));
+    height: 300px;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    display: block;
+}
+.callto-info{
+    text-align: center;
+    margin-top: 60px;
+    color: #fff;
+
+}
+.callto-info h2{
+    font-weight: 700;
+}
+.callto-info button{
+    background-color: transparent;
+    padding: 10px 35px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.callto-info button:hover{
+    background-color: #18d26e;
+    border: none;
+    transition: 0.3s;
+}
+.call-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}

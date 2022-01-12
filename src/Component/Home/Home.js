@@ -13,6 +13,7 @@ import ProgressBar from '../ProgressBar/ProgressBar';
 import Services from '../Services/Services';
 import Team from '../Team/Team';
 import Testimonial from '../Testimonial/Testimonial';
+import CallToAction from '../CallToAction/CallToAction';
 
 
 const Home = () => {
@@ -32,6 +33,7 @@ const handleScroll = () => {
            <BannerItems></BannerItems>
            <About></About>
            <Services></Services>
+           <CallToAction></CallToAction>
            <Progress></Progress>
            <CountNumber></CountNumber>
            <ProgressBar></ProgressBar>
